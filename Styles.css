@@ -1,0 +1,30 @@
+body{
+    background-color: bisque;
+}
+
+#conteiner{
+    display: flex;
+}
+.catão{
+    margin: 50px;
+    background: aquamarine;
+    height: 20rem;
+    flex-grow: 1;
+    flex-basis: calc(33%-6rem);
+
+}
+.h3{
+    margin: 10px;
+    border-radius: 0,6rem;
+    background: tomato;
+    
+}
+footer{
+    background-color: black;
+    color: white;
+    font-size: 40px;
+    bottom: 0;
+    width: 100%;
+    text-align: center;
+    position: fixed;
+}
